@@ -4,6 +4,10 @@ body {
   flex-direction: column;
 }
 
+ul {
+  list-style: none;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -22,8 +26,48 @@ header h1 {
 
 .main {
   margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.main img {
+  width: 606px;
+  height: 94px;
+}
+
+.ingredients__section img {
+  width: 556px;
+  height: 128px;
 }
 
 .main p {
+  font-size: 40px;
+}
+
+.ingredients__section {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ingredients__section li {
   font-size: 24px;
+}
+
+.directions__section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+
+.directions__section p {
+  font-size: 24px;
+}
+
+hr {
+  width:75%;
 }
